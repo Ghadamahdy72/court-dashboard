@@ -1,0 +1,95 @@
+{
+  "name": "لوحة الدوائر القضائية — مؤشرات الأداء",
+  "short_name": "الدوائر القضائية",
+  "description": "لوحة مؤشرات الأداء التفاعلية — محكمة الأسرة 2026",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "dir": "rtl",
+  "lang": "ar",
+  "background_color": "#f3f6f9",
+  "theme_color": "#0a315d",
+  "icons": [
+    {
+      "src": "icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "رفع البيانات",
+      "short_name": "رفع ملف",
+      "description": "رفع ملف Excel بسهولة",
+      "url": "./index.html?action=upload",
+      "icons": [
+        {
+          "src": "icon-96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "طباعة اللوحة",
+      "short_name": "طباعة",
+      "description": "طباعة البيانات الحالية",
+      "url": "./index.html?action=print",
+      "icons": [
+        {
+          "src": "icon-96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot-540x720.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "screenshot-1280x720.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "categories": ["productivity", "business"],
+  "prefer_related_applications": false
+}
